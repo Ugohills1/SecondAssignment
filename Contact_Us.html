@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us.</Title>
+    </head>
+    <h1>Welcome to Our Contact Us Page</h1>
+    <p>We would love to hear from you! Please fill out the form below, and we will get in touch with you shortly.</p>
+     
+    <form action="submit_form.php" method="post">
+        <!-- Name Field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+        <br><br>
+        
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Your Email">
+        <br><br>
+        
+        <!-- Phone Number Field -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+        <br><br>
+        
+        <!-- Message Field -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+        <br><br>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
